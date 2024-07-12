@@ -286,7 +286,7 @@ Si $X_0=0$ on dit que le mouvement brownien est \textbf{standard}.
 \begin{proof}
     \begin{figure}
     \centering
-    \includegraphics[scale=0.5]{reflection principle.png}
+    \includegraphics[scale=0.5]{figures/reflection principle.png}
     \caption{Mouvement brownien réflechi du temps d'arret $T$}
     \label{fig:enter-label}
 \end{figure}
@@ -326,7 +326,7 @@ On note $N(x)$ la fonction de répartition de la loi normale. On rappelle que
 On remarque alors que les réalisations $x$ de $B_t$ vérifient $N(x)+N(-x)=1$
 \begin{figure}[H]
 \centering
-    \includegraphics[scale=0.6]{loinormale.png}
+    \includegraphics[scale=0.6]{figures/loinormale.png}
     \caption{Fonction de répartition de la loi normale}
     \label{fig:my_label}
 \end{figure} 
@@ -537,7 +537,7 @@ Où $\Tilde{W_t}$ est un Q-mouvement brownien. Si on note $\tilde{S}$ la valeur 
 Sous la probabilité Q la valeur de notre actif réactualisée est une martingale.
 \begin{figure}[H]
 \centering
-    \includegraphics[scale=0.6]{girsqnov.pdf}
+    \includegraphics[scale=0.6]{figures/girsqnov.pdf}
     \caption{Processus stochastiques sous la mesure transformée de Girasnov}
     \label{fig:my_label}
 \end{figure} 
@@ -654,7 +654,7 @@ On peut résumer
 
 
 \begin{figure}[h!]
-\centerline{\includegraphics[scale=0.6]{tableau derivaives.png}}
+\centerline{\includegraphics[scale=0.6]{figures/tableau derivaives.png}}
 \caption{derivatives}
 \end{figure}
 
@@ -666,7 +666,7 @@ Le VIX est un indicateur de volatilité établi tous les jours par le Chicago Bo
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.15]{vix.png}
+    \includegraphics[scale=0.15]{figures/vix.png}
     \caption{Evolution du VIX de 1985 a 2012 (Wikipedia)}
     \label{fig:enter-label}
 \end{figure}
@@ -689,10 +689,10 @@ De manière similaire, le résultat pour l'acheteur d'un put sera $R_{put}=\max 
 \vspace{2mm} \\
 On peut voir l'évolution du prix de l'option pour les quatres scénarios précédents dans les graphes suivants: \\
 \begin{figure}[H]
-\subfloat[Long d'un call]{\includegraphics[scale=0.65]{Long_d'un_call.png}}
-\subfloat[Short d'un call]{\includegraphics[scale=0.65]{Short_d'un_call.png}} \\
-\subfloat[Long d'un put]{\includegraphics[scale=0.65]{Long_d'un_put.png}}
-\subfloat[Short d'un put]{\includegraphics[scale=0.65]{Short_d'un_put.png}}
+\subfloat[Long d'un call]{\includegraphics[scale=0.65]{figures/Long_d'un_call.png}}
+\subfloat[Short d'un call]{\includegraphics[scale=0.65]{figures/Short_d'un_call.png}} \\
+\subfloat[Long d'un put]{\includegraphics[scale=0.65]{figures/Long_d'un_put.png}}
+\subfloat[Short d'un put]{\includegraphics[scale=0.65]{figures/Short_d'un_put.png}}
 \caption{Evolution du prix de l'option}
 \end{figure} 
 
@@ -951,7 +951,7 @@ Inverser cette équation pour résoudre \(\sigma_{\text{implicite}}\) donne une 
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.7]{implied_vol.png}
+    \includegraphics[scale=0.7]{figures/implied_vol.png}
     \caption{The volatility surface}
     \label{fig:enter-label}
 \end{figure}
@@ -971,7 +971,7 @@ Dans le modèles de Black-Scholes, la fonction de volatilité est une fonction a
 Dans ce modèle, la volatilité est construite afin de calibrer au mieux le smile (volatilité implicite en fonction du strike).
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.5]{volatility-smile.png}
+    \includegraphics[scale=0.5]{figures/volatility-smile.png}
     \caption{Smile de la volatilité implicite}
     \label{fig:enter-label}
 \end{figure}
@@ -1238,7 +1238,7 @@ Pour cela il suffit de
 \end{itemize}
 \begin{figure}[H]
     \centering
-    \includegraphics{replicating.png}
+    \includegraphics{figures/replicating.png}
     \caption{replication d'une digital avec 1 call de maturité $100+1$ (bleu clair) et 0.5 call de maturité $100+0.5$ (bleu marine)}
     \label{fig:enter-label}
 \end{figure}
@@ -1297,7 +1297,7 @@ On peut identifier les principales Greeks dans le tableau, voici les détails de
 La prime d'un \textit{call} est une fonction croissante du prix du sous-jacent, $\delta_{call} \geq 0$, alors que celle d'un \textit{put} en est une fonction décroissante, $\delta_{put} \leq 0$. En effet, plus le prix du sous-jacent est élevé, plus la probabilité que le call soit dans la monnaie est grande. Symétriquement, plus le prix du sous-jacent est bas, plus la probabilité que le put soit dans la monnaie est grande. Ainsi, lorsqu'une option a un delta égal (en valeur absolue) à ou proche de 0,5, on dit qu'elle est à la monnaie. 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.6]{delta.png}
+    \includegraphics[scale=0.6]{figures/delta.png}
     \caption{Evolution du $\Delta$ en fonction du spot price $S$}
     \label{fig:enter-label}
 \end{figure}
@@ -1312,7 +1312,7 @@ Il indique si le prix de l'option a tendance à évoluer plus ou moins vite que 
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.6]{gamma.png}
+    \includegraphics[scale=0.6]{figures/gamma.png}
     \caption{Evolution du $\gamma$ en fonction du spot price $S$}
     \label{fig:enter-label}
 \end{figure}
@@ -1329,8 +1329,8 @@ En considérant des options européennes qui ne versent pas de dividendes
     \theta_{call} = -\frac{S N'(d_1) \sigma}{2 \sqrt{T}} - r K e^{- r T} N(d_2), \hspace{3mm} \theta_{put} = -\frac{S N'(d_1) \sigma}{2 \sqrt{T}} + r K e^{- r T} N(- d_2)
 \end{align*}
 \begin{figure}[H]
-\subfloat[call tetha]{\includegraphics[scale=0.3]{theta.png}}
-\subfloat[put theta]{\includegraphics[scale=0.3]{put_theta.png}} \\
+\subfloat[call tetha]{\includegraphics[scale=0.3]{figures/theta.png}}
+\subfloat[put theta]{\includegraphics[scale=0.3]{figures/put_theta.png}} \\
 \caption{Evolution du $\theta$ de l'option}
 \end{figure} 
 Une position longue d'options (gamma positive) sera thêta négative. Le trader devra veiller tous les jours à payer son thêta journalier en profitant de sa position longue en gamma. On préfèrera donc être long d'une option qui soit suffisamment volatile, ainsi en rebalançant la position, on pourra payer le temps qui passe en tradant le gamma.
@@ -1341,8 +1341,8 @@ Le rhô est le taux de variation de la valeur de la prime en fonction du taux sa
 \end{align*}
 
 \begin{figure}[H]
-\subfloat[call rho]{\includegraphics[scale=0.3]{put_rho.png}}
-\subfloat[put rho]{\includegraphics[scale=0.3]{call_rho.png}} 
+\subfloat[call rho]{\includegraphics[scale=0.3]{figures/put_rho.png}}
+\subfloat[put rho]{\includegraphics[scale=0.3]{figures/call_rho.png}} 
 \caption{Evolution du $\rho$ de l'option}
 \end{figure} 
 
@@ -1571,7 +1571,7 @@ Et on obtient le résultat.\\
 \end{proof}
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.5]{ridge_perfo.png}
+    \includegraphics[scale=0.5]{figures/ridge_perfo.png}
     \caption{Stabilisation des coefficients avec Ridge}
     \label{fig:enter-label}
 \end{figure}
@@ -1603,7 +1603,7 @@ Il n’y a pas de calcul direct pour la regression Lasso. On résoud alors par u
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.4]{algo.png}
+    \includegraphics[scale=0.4]{figures/algo.png}
     \caption{Forward Stagewise Algorithm}
     \label{fig:enter-label}
 \end{figure}
@@ -1613,7 +1613,7 @@ reste la méthode la plus efficace. On procède souvent par validation croisée
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.7]{lasso.png}
+    \includegraphics[scale=0.7]{figures/lasso.png}
     \caption{Choix du paramètre $\lambda$}
     \label{fig:enter-label}
 \end{figure}
@@ -1713,7 +1713,7 @@ Et on a la fonction estimée $Y(X)= W^T X + w_0$. Cependant, à cause de la non-
 On choisit alors de construire un 2-layer perceptron:
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.7]{2-layer.png}
+    \includegraphics[scale=0.7]{figures/2-layer.png}
     \caption{Two-layer perceptron}
     \label{fig:enter-label}
 \end{figure}
@@ -1754,7 +1754,7 @@ Un réseau de neurones artificiels (\textit{Artificial Neural Network, Multilaye
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.4]{ann.png}
+    \includegraphics[scale=0.4]{figures/ann.png}
     \caption{Artificial Neural Network}
     \label{fig:enter-label}
 \end{figure}
@@ -1790,25 +1790,25 @@ La fonction d'activation est une fonction appliquée à un signal en sortie d'un
         Nom & Graphe & Expression & Dérivée & Étendue \\
         \hline
         Heaviside & 
-        \includegraphics[width=1.5cm]{heavyside_graph.png} & 
+        \includegraphics[width=1.5cm]{figures/heavyside_graph.png} & 
         $H(x) = \begin{cases} 0, & \text{si } x < 0 \\ 1, & \text{si } x \geq 0 \end{cases}$ & 
         $\delta(x)$ & 
         $\{0, 1\}$ \\
         \hline
         Sigmoïde & 
-        \includegraphics[width=1.5cm]{sigmoid_graph.png} & 
+        \includegraphics[width=1.5cm]{figures/sigmoid_graph.png} & 
         $\sigma(x) = \frac{1}{1 + e^{-x}}$ & 
         $\sigma'(x) = \sigma(x)(1 - \sigma(x))$ & 
         $[0, 1]$ \\ 
         \hline
         ReLU & 
-        \includegraphics[width=1.5cm]{relu_graph.png} & 
+        \includegraphics[width=1.5cm]{figures/relu_graph.png} & 
         $\text{ReLU}(x) = \max(0, x)$ & 
         $\text{ReLU}'(x) = \begin{cases} 0, & \text{si } x < 0 \\ 1, & \text{si } x \geq 0 \end{cases}$ & 
         $\mathbb{R}$ \\ 
         \hline
         Tanh & 
-        \includegraphics[width=1.5cm]{arctangent_graph.png} & 
+        \includegraphics[width=1.5cm]{figures/arctangent_graph.png} & 
         $\tanh(x) = \frac{e^{2x} - 1}{e^{2x} + 1}$ & 
         $\tanh'(x) = 1 - \tanh^2(x)$ & 
         $[-1, 1]$ \\ \\
